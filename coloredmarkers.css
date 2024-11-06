@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+  }
+  
+  .container {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+  }
+  
+  .marker {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto; /*  (auto) the browser calculates the margin */   
+  }
+  
+  .cap {
+    width: 60px;
+    height: 25px;
+  }
+  
+  .sleeve {
+    width: 110px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.5);  /* shows values for rgba(red, green, blue, alpha) */ /* Goes from 0 to 255 for colors and Alpha is opacity as a number between 0.0 (fully transparent) and 1.0 (fully opaque)*/
+    border-left: 10px double rgba(0, 0, 0, 0.75);
+  }
+  
+  .cap, .sleeve {
+    display: inline-block;
+  }
+  
+  .red {
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));  /* background-image: linear-gradient(direction, color-stop1, color-stop2, ...);*/
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+  }
+  
+  .green {
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    box-shadow: 0 0 20px 0 #3B7E20CC;
+  }
+  
+  .blue {
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%)); /* for HSL hsl(hue, saturation, lightness) and Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.*/
+    box-shadow: 0 0 20px 0 blue;
+  }
+  

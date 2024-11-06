@@ -1,0 +1,43 @@
+* { /*All elements */ 
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f5f6f7;
+  }
+  
+  .header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 4px solid #fdb347;
+  }
+  
+  .gallery {
+    display: flex; /*Displays an element as a block-level flex container*/
+    flex-direction: row; /*specifies the direction of the flexible items.*/
+    flex-wrap: wrap; /*whether the flexible items should wrap or not.*/
+    justify-content: center; /*property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).*/
+    align-items: center;
+    gap: 16px; /* Cap between the rows and the colummns */ 
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px; /* specify how an <img> or <video> should be resized to fit its container.*/ 
+  }
+  
+  .gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .gallery::after { /* inserts some content after the content of the specified element.*/
+    content: ""; /*used with the ::before and ::after pseudo-elements, to insert generated content.*/ 
+    width: 350px;
+  }

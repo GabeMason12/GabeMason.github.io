@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Race Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: linear-gradient(to bottom, #88d1fc, #dff2ff);
+            margin: 0;
+        }
+
+        h1 {
+            color: #333;
+            margin: 20px;
+        }
+
+        .race-track {
+            position: relative;
+            width: 80%;
+            height: 100px;
+            background-color: #4caf50;
+            border: 5px solid #333;
+            margin: 20px 0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .car {
+            width: 70px;
+            height: auto;
+            position: absolute;
+            top: 10px;
+        }
+
+        #car1 {
+            left: 0;
+            top: 10px;
+        }
+
+        #car2 {
+            left: 0;
+            top: 50px;
+        }
+
+        #raceButton {
+            padding: 12px 24px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        #raceButton:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Car Race Game</h1>
+    
+    <!-- Race Track -->
+    <div class="race-track">
+        <img id="car1" class="car" src="https://img.icons8.com/color/96/000000/race-car-top-view.png" alt="Car 1">
+        <img id="car2" class="car" src="https://img.icons8.com/color/96/000000/race-car-top-view.png" alt="Car 2">
+    </div>
+    
+    <button id="raceButton">Start Race!</button>
+    
+    <script>
+        const raceButton = document.getElementById('raceButton');
+        const car1 = document.getElementById('car1');
+        const car2 = document.getElementById('car2');
+        const trackWidth = document.querySelector('.race-track').clientWidth - car1.width;
+
+        raceButton.addEventListener('click', () => {
+            car1.style.left = '0px';
+            car2.style.left = '0px';
+
+            let car1Pos = 0;
+            let car2Pos = 0;
+
+            const raceInterval = setInterval(() => {
+                car1Pos += Math.random() * 5;
+                car2Pos += Math.random() * 5;
+
+                car1.style.left = Math.min(car1Pos, trackWidth) + 'px';
+                car2.style.left = Math.min(car2Pos, trackWidth) + 'px';
+
+                if (car1Pos >= trackWidth || car2Pos >= trackWidth) {
+                    clearInterval(raceInterval);
+                    const winner = car1Pos > car2Pos ? 'Car 1' : 'Car 2';
+                    alert(`${winner} wins the race!`);
+                }
+            }, 20);
+        });
+    </script>
+</body>
+</html>
