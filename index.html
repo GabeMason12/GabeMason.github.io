@@ -3,10 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GabeMason</title>
+    <title>Website Under Construction</title>
+    <style>
+        body {
+            font-family: 'StrainMS';
+            margin: 0;
+            padding: 0;
+            background: url('https://www.wearegecko.co.uk/media/50316/mountain-3.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+            animation: bounceIn 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55), fadeIn 1.5s ease-out;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.5em;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes bounceIn {
+            0% { opacity: 0; transform: scale(0.3) translateY(200px); }
+            60% { opacity: 1; transform: scale(1.1) translateY(-30px); }
+            100% { transform: scale(1) translateY(0); }
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello world</h1>
-    <p>GabeMason</p>
+    <div class="container">
+        <h1>Website Still in Progress</h1>
+        <p>Come back later!</p>
+    </div>
 </body>
 </html>
