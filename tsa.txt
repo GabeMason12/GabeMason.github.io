@@ -1,0 +1,622 @@
+Question 1
+ What is the primary purpose of a two-dimensional array?
+
+To represent a matrix-like structure with rows and columns 
+To perform mathematical operations on numeric data
+To iterate over a single-dimensional array
+To store multiple elements of different types
+
+Answer = To represent a matrix-like structure with rows and columns
+
+
+Question 2
+Which Class relationship indicates a weaker connection between classes, suggesting parts can exist independently?
+
+Inheritance
+Association
+Aggregation
+Composition
+
+Answer = Aggregation
+
+
+Question 3
+All of the following are cloud service providers except ONE.
+
+Which one of the following is NOT a cloud service provider?
+
+Google Cloud Platform (GCP)
+Microsoft Azure
+Amazon Web Services (AWS)
+Content Delivery Networks (CDNs)
+
+Answer = Content Delivery Networks (CDNs)
+
+
+Question 4
+What does HTTPS (Hypertext Transfer Protocol Secure) primarily provide?
+
+Encryption for data exchanged between a user's browser and a web server
+Secure email communication
+File transfer capabilities
+High-speed internet connections
+
+Answer = Encryption for data exchanged between a user's browser and a web server
+
+
+Question 5 
+Which of the following is NOT a key component of a user-defined class?
+
+Attributes
+Constructors
+If statements
+Methods
+
+Answer = if statements
+
+
+Question 6
+Public key encryption is also known as what?
+
+Quantum Entanglement
+Specific Encryption
+Asymmetric Encryption
+Symmetric Encryption
+
+Answer = Asymmetric Encryption
+
+
+Question 7
+What is the primary advantage of CSS Flexbox in responsive design?
+
+It is exclusively for styling text elements
+It eliminates the need for media queries
+It only works for desktop layouts
+It provides more control over the distribution of items and their alignment
+
+Answer = It provides more control over the distribution of items and their alignment
+
+
+Question 8 
+What is the process of modifying the behavior of an existing class in object-oriented programming called?
+
+Abstraction
+Polymorphism
+Encapsulation
+Inheritance
+
+Answer = Polymorphism
+
+
+Question 9 
+Which mechanism allows a class to inherit attributes and behaviors from another class?
+
+Polymorphism
+Encapsulation
+Inheritance
+Abstraction
+
+Answer = Inheritance
+
+
+Question 10 
+let result = 0;
+for (let i = 0; i < 5; i++) {
+    for (let j = 0; j <= i; j++) {
+        result += j;
+    }
+}
+console.log(result);
+
+ What will be the output of the above code?
+
+20
+60
+10
+40
+
+Answer = 20 
+
+
+Question 11
+What is a modifier method in object-oriented programming?
+
+A method responsible for creating new objects
+A method responsible for updating or modifying the state of an object
+A method responsible for deleting objects
+A method responsible for retrieving the state of an object
+
+Answer = A method responsible for updating or modifying the state of an object
+
+
+Question 12 
+What type of search is less efficient in arrays when looking for a specific element?
+
+Linear Search
+Hash-based Search
+Binary Search
+Depth-First Search
+
+Answer = Linear Search 
+
+
+Question 13 
+Which platform is commonly used for version control and collaboration on software development projects?
+
+Dropbox
+Google Drive
+JSFiddle
+GitHub
+
+Answer = GitHub
+
+
+Question 14
+let matrix = [[1, 2], [3, 4]];
+console.log(matrix[1][0] + matrix[0][1]);
+
+What will be printed as the output of the above code?
+
+5
+3
+4
+6
+
+Answer = 5 
+
+
+Question 15
+Which of the following statements is true about a class?
+
+It can directly access the properties of an object.
+It cannot have its own data or behavior.
+It cannot exist without any reference to an object.
+It can inherit properties and methods from another class.
+
+Answer = It can inherit properties and methods from another class.
+
+
+Question 16
+Which of the following is an example of an HTML version that incorporates new features, semantic elements, and multimedia capabilities?
+
+HTML 4.01
+HTML5
+XHTML
+HTML+
+
+Answer = HTML5
+
+
+Question 17
+Can you return different data types from different invocations of the same function?
+
+Yes, but it requires explicitly declaring the return type for each invocation.
+No, the return type of a function is fixed and consistent for all invocations.
+Yes, when using polymorphism and inheritance, the return type can be determined dynamically at runtime.
+Yes, but only if the function uses a switch statement to determine the return type.
+
+Answer = Yes, when using polymorphism and inheritance, the return type can be determined dynamically at runtime.
+
+
+Question 18
+What is the appropriate way to name a variable name based on HTML conventions?
+
+camelCase
+kebab-case
+snake_case
+PascalCase
+
+Answer = kebab-case 
+
+
+Question 19
+What does "boundary conditions" refer to in the context of nested loops?
+
+The end of the code where loops are defined
+Conditions that prevent loops from executing
+Conditions for entering nested loops
+Establish the range or scope of iterations for each loop.
+
+Answer = Establish the range or scope of iterations for each loop.
+
+
+Question 20 
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
+
+    def setRadius(self, newRadius):
+        self.radius = newRadius
+
+    def getRadius(self):
+        return self.radius
+}
+
+circle1 = Circle(5)
+circle1.setRadius(10)
+radius = circle1.getRadius()
+
+Which one of the following choices is a modifier methods in the Circle class?
+
+__init__()
+setRadius()
+There are no modifier methods in the code
+Circle(5)
+
+Answer = setRadius()
+
+
+Question 21
+public class Rectangle {
+    private int width;
+    private int height;
+
+    public void setWidth(int width) {
+        this.width = width;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+}
+
+Rectangle rectangle1 = new Rectangle();
+rectangle1.setWidth(10);
+rectangle1.setHeight(5);
+int width = rectangle1.getWidth();
+
+Which methods in the Rectangle class are modifier methods?
+
+setWidth() and setHeight()
+getWidth() and getHeight()
+rectangle1.setWidth(10);  and  rectangle1.setHeight(5);
+There are no modifier methods in the code
+
+Answer = setWidth() and setHeight()
+
+
+Question 22
+If you are writing a program to determine if a number is even, which of the following data types would allow a true response to be reported when the number is even?
+
+boolean
+numeric
+double
+string
+
+Answer = boolean 
+
+
+Question 23
+Which of the following is an example of social engineering?
+
+Creating fake websites
+Replicating a computer virus
+Impersonating a trusted entity
+Sending spam emails
+
+Answer = Impersonating a trusted entity
+
+
+Question 24
+Which type of loop is represented by the pseudocode below?
+
+ FOR index FROM 10 TO 1 STEP -1
+
+    PRINT "Countdown: " + index
+
+END FOR
+
+While loop
+ Do-while loop
+For loop
+Repeat-until loop
+
+Answer = For loop
+
+
+Question 25
+What is the practice of structuring and presenting data in a specific layout or style called?
+
+Output generation
+Data formatting
+Cross-platform compatibility
+Input validation
+
+Answer = Data formatting 
+
+
+Question 26 
+What does i-- do to the value of i?
+
+multiplies current value of i by 2
+adds 1 to the current value of i
+subtracts 1 to the current value of i
+multiplies the current value of i by 1
+
+Answer = subtracts 1 to the current value of i
+
+
+Question 27
+Write an expression to correctly calculate the remainder when dividing 20 by 7.
+
+7 / 20
+20 / 7
+7 % 20
+20 % 7
+
+Answer = 20 % 7
+
+
+Question 28
+What does WCAG stand for?
+
+Web Content Accessibility Guidelines
+W3C Control and Accessibility Guidelines
+World Consortium for Accessibility and Guidelines
+Web Compliance and Accessibility Group
+
+Answer = Web Content Accessibility Guidelines
+
+
+Questiom 29
+What does latency refer to in the context of CDNs?
+
+The delay between sending a request and receiving a response.
+The number of edge servers in a CDN.
+The distance between the user and the content server.
+The number of cached items in the CDN.
+
+Answer = The delay between sending a request and receiving a response.
+
+
+Question 30
+Which expression is evaluated first in this example,
+
+2 + 3 * 4 ** 2 % 5,
+
+according to the precedence of operations?
+
+Exponentiation, ** 
+Multiplication, *
+Addition, +
+Modulo, % 
+
+Answer = Exponentiation, **
+
+
+Question 31
+What is the primary reason to avoid writing your own function when a standard library function exists for the task?
+
+To avoid reinventing the wheel and use well-tested solutions
+To improve the aesthetics of your code
+To ensure that your code is faster
+To avoid errors
+
+Answer = To avoid reinventing the wheel and use well-tested solutions
+
+
+Question 32
+Which GUI object displays a list of options, and users can select one or multiple options from the list?
+
+Radio Buttons
+List Boxes
+Text Boxes
+Labels
+
+Answer = List Boxses
+
+
+Question 33 
+Determine the highest precedence of operations in this example 10 + 12 * 5 % 3 - 2.
+
+Multiplication
+Subtraction
+Modulo
+Addition
+
+Answer = Multiplication
+
+
+Question 34
+ What is the primary purpose of a two-dimensional array?
+
+ To perform arithmetic calculations.
+To organize data in rows and columns.
+To create a one-dimensional array.
+To store a single value or element.
+
+Answer = To organize data in rows and columns.
+
+
+Question 35
+Which of the following HTTP status codes indicates a successful response from an API request?
+
+404 Not Found
+200 OK
+500 Internal Server Error
+302 Found
+
+Answer = 200 OK
+
+
+Question 36
+ In which sector is regulatory compliance particularly important for specialty browsers?
+
+Education
+Gaming and entertainment
+Healthcare and finance
+Cross-platform compatibility
+
+Answer = Healthcare and finance
+
+
+Question 37
+If x is defined at 6 what value with be returned? 30/x*3^2-8
+
+316
+217
+37
+45
+
+Answer = 37
+
+
+Question 38
+Which project management tool visually represents tasks over time, often showing dependencies?
+
+Kanban Board
+Scrum Board
+Gantt Chart
+Risk Register
+
+Answer = Gantt Chart
+
+
+Question 39
+let arr = [3, 5, 2, 1, 4];
+arr.reverse();
+console.log(arr);
+
+What will be the output of the code snippet above?
+
+[3, 5, 2, 1, 4]
+[5, 4, 3, 2, 1]
+[1, 2, 3, 4, 5]
+[4, 1, 2, 5, 3]
+
+Answer = [4, 1, 2, 5, 3]
+
+
+Question 40
+What is the recommended approach to identify errors in code by breaking it down into smaller parts and testing each part individually?
+
+Use a debugger
+Code review
+Print statements
+Divide and conquer
+
+Answer = Divide and conquer
+
+
+Question 41
+What is the definition of the NOR operator?
+
+NOR is the logical operator that returns true if either of the operands is true.
+NOR is the logical operator that returns true if both operands are false.
+NOR is the logical operator that returns true only if exactly one of the operands is true.
+NOR is the logical operator that returns true if both operands are true.
+
+Answer = NOR is the logical operator that returns true if both operands are false.
+
+
+Question 42
+Which one of the following is specifically used for free computer programs?
+
+Open source
+Creative commons
+Public domain
+Open Access
+
+Answer = Open source
+
+
+Question 43
+A variable is often compared to what object?
+
+A battery
+A spring
+An emtpy box
+A funnel
+
+Answer = An emtpy box
+
+
+Question 44
+Which statement accurately defines instance variables in object-oriented programming?
+
+Instance variables are shared among all instances of a class
+Instance variables are unique to each instance of a class and store specific data.
+Instance variables are accessed using the class name.
+Instance variables are initialized at the class level.
+
+Answer = Instance variables are unique to each instance of a class and store specific data.
+
+
+Question 45 
+What is the primary goal of constructing web pages and applications that comply with ADA and sections 504 and 508 standards?
+
+Improving website performance and speed
+Ensuring equal access for individuals with disabilities
+Meeting government regulations for website development
+Enhancing search engine rankings
+
+Answer = Ensuring equal access for individuals with disabilities
+
+
+Question 46 
+UML (Unified Modeling Language) class diagrams are used to represent:
+
+The sequence of steps in a program's execution
+The structure and relationships between classes in an object-oriented program
+The hardware and software requirements for a program
+The steps and expected results for testing a program
+
+Answer = The structure and relationships between classes in an object-oriented program
+
+
+Question 47 
+How can logging help in handling unexpected return values?
+
+By generating stack traces for debugging
+By providing meaningful error messages to users
+By capturing information for analysis and troubleshooting
+By automatically fixing unexpected return values
+
+Answer = By capturing information for analysis and troubleshooting
+
+
+Question 48
+What is refactoring?
+
+The process of debugging code
+The process of improving the structure, readability, and maintainability of code without changing its external behavior
+The process of modifying existing code to change its functionality
+The process of rewriting code from scratch
+
+Answer = The process of improving the structure, readability, and maintainability of code without changing its external behavior
+
+
+Question 49
+Which type of system is more likely to involve paid support services?
+
+Both open source and proprietary systems
+Open source systems
+Neither open source nor proprietary systems
+Proprietary systems
+
+Answer = Proprietary systems
+
+
+Question 50
+Which term describes the practice of converting data structures into a format suitable for storage, transmission, or reconstruction?
+
+Localization
+Data formatting
+Serialization
+Escaping
+
+Answer = Serialization
+
+Question 51
+
+
+
+
