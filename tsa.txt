@@ -616,6 +616,602 @@ Escaping
 Answer = Serialization
 
 Question 51
+ Which step in the problem-solving approach involves coding, testing, and iterating?
+
+Break down the problem
+Implement the solution
+Understand the problem
+Evaluate and improve the solution
+
+Answer = Implement the solution
+
+
+Question 52
+In responsive design, what does the term "progressive enhancement" refer to?
+
+Enhancing the design progressively for larger screens
+Starting with a complex design and simplifying it gradually
+Enhancing features for more capable devices while providing a baseline experience on all devices
+Ignoring enhancements for simplicity
+
+Answer = Enhancing features for more capable devices while providing a baseline experience on all devices
+
+
+Question 53
+What is the purpose of FERPA?
+
+To regulate the sharing of cyber threat information
+To ensure the privacy of student education records
+To protect sensitive patient health information
+To protect the online privacy of children
+
+Answer = To ensure the privacy of student education records
+
+
+Question 54
+Which sorting algorithm has an average and worst-case time complexity of O(n^2)?
+
+Quick Sort
+Bubble Sort
+Counting Sort
+Merge Sort
+
+Answer = Bubble Sort
+
+
+Question 55
+What is the primary goal of code review in software development?
+
+To ensure that all code is written by the same person.
+To compile and validate the code before deployment.
+To identify potential issues, improve code quality, and adhere to coding standards.
+To find the shortest code solutions to problems.
+
+Answer = To identify potential issues, improve code quality, and adhere to coding standards.
+
+
+Question 56
+ If you are writing a program to store the quotient and remainder as separate whole numbers, which of the following data types should be used when declaring the variables?
+
+integer
+string
+double
+float
+
+Answer = integer 
+
+
+Question 57
+What is the primary concern when dealing with resource constraints in data storage and manipulation?
+
+Ignoring resource usage.
+Minimizing resource usage.
+Maximizing resource usage.
+Using any available resources.
+
+Answer = Minimizing resource usage.
+
+
+Question 58
+What is the primary purpose of a class in object-oriented programming?
+
+To define the data and behavior of an object.
+To store variables and perform calculations.
+To control the flow of a program.
+To encapsulate unrelated functions.
+
+Answer = To define the data and behavior of an object.
+
+
+Question 59
+Which code type is generally more portable?
+
+Compiled code and interpreted code are equally portable
+Interpreted code
+Neither interpreted nor compiled code are very portable
+Compiled code
+
+Answer = Interpreted code 
+
+
+Question 60
+Which term describes the process of testing accessor methods in isolation?
+
+Accessor Testing
+Unit Testing
+Chaining Testing
+Property Testing
+
+Answer = Unit Testing 
+
+
+Question 61
+What is the definition of the XOR operator?
+
+XOR is the logical operator that returns true if both operands are false.
+There is no XOR operator.
+XOR is the logical operator that returns true if either, but not both, of the operands is true.
+XOR is the logical operator that returns true if both operands are true.
+
+Answer = XOR is the logical operator that returns true if either, but not both, of the operands is true.
+
+
+Question 62
+Which aspect of software development does a build system primarily address?
+
+Designing user interfaces and user experiences
+Writing and testing software algorithms
+Analyzing and optimizing software performance
+Building and packaging software artifacts
+
+Answer = Building and packaging software artifacts
+
+
+Question 63
+What role does secure coding standards play in maintaining software integrity?
+
+Standardizing coding styles
+Preventing common security vulnerabilities
+Raises awareness of potential security threats
+Ensuring code redundancy
+
+Answer = Preventing common security vulnerabilities
+
+
+Question 64
+Which regulation aims to ensure the confidentiality, integrity, and availability of health information?
+
+COPPA
+GDPR
+PCS DSS
+HIPAA
+
+Answer = HIPAA
+
+
+Question 65
+What are fluid grids and flexible layouts in responsive design?
+
+Techniques for optimizing website performance
+Methods for enhancing website security
+Approaches for creating dynamic and adaptable web content
+Tools for generating responsive images
+
+Answer = Approaches for creating dynamic and adaptable web content
+
+
+Question 66
+Which phase of the SDLC involves testing the system or application for any errors or bugs?
+
+Design
+Analysis
+Testing
+Development
+
+Answer = Testing
+
+
+Question 67
+arr ← [5, 8, 2, 4, 9]
+max ← max(arr)
+output(max)
+
+What will be the output of the code snippet above?
+
+5
+8
+2
+9
+
+Answer = 9
+
+
+Question 68
+How can custom exception classes contribute to error recovery and graceful degradation?
+
+By preventing exceptions from occurring
+By providing alternative paths or fallback actions when exceptions occur
+By completely eliminating the need for exception handling
+By automatically handling exceptions without any user intervention
+
+Answer = By providing alternative paths or fallback actions when exceptions occur
+
+
+Question 69
+What does the term "Object Construction Requirements" refer to in the context of programming documentation?
+
+Details about object destruction
+Information about object state
+Guidelines for object inheritance
+Specifications for creating objects
+
+Answer = Specifications for creating objects
+
+
+Question 70
+Which platform is commonly used for version control and collaboration on software development projects?
+
+GitHub
+JSFiddle
+Google Drive
+Dropbox
+
+Answer = Github 
+
+
+Question 71
+All of the following binary numbers are even EXCEPT ONE.
+
+Which of one the following binary numbers are odd? 
+
+1001010100101100
+1000111111100100
+0010100110111011
+0100100110000100
+
+Answer = 0010100110111011
+
+
+Question 72
+Which of the following is true about algorithmic efficiency?
+
+It measures the complexity of the algorithm's code
+It refers to the speed of the algorithm's execution
+It determines the accuracy of the algorithm's results
+It depends on the programming language used in the algorithm
+
+Answer = It refers to the speed of the algorithm's execution
+
+
+Question 73
+What kind of file extension must be on the file for Python code to run?
+
+
+.python
+.html
+.png
+.css
+.txt
+.py
+.js
+
+Answer = .py
+
+
+Question 74
+What is the primary use case for hash maps?
+
+Implementing queues
+Representing stacks
+Associating keys with values
+Efficiently managing ordered collections
+
+Answer = Associating keys with values
+
+
+Question 75
+Which search method is suitable for finding a specific word in an unsorted book?
+
+Linear search
+Hash search
+Binary search
+Quick search
+
+Answer = Linear search
+
+
+Question 76
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
+
+    def get_radius(self):
+        return self.radius
+
+    def set_radius(self, new_radius):
+        self.radius = new_radius
+
+circle1 = Circle(5)
+
+Which method in the Circle class is the accessor method?
+
+Circle(5)
+self.radius = radius
+get_radius()
+set_radius(self, new_radius)
+
+Answer = get_radius()
+
+
+Question 77
+What is the purpose of a media query in responsive design?
+
+To serve different versions of a website to different browsers
+To apply specific styles based on device characteristics
+To control the flow and navigation of a web application
+To optimize images for different devices
+
+Answer = To apply specific styles based on device characteristics
+
+
+Question 78
+What is the purpose of implementing basic algorithms?
+
+To enhance the program's user interface
+To increase the program's security
+To solve problems or perform tasks
+To execute program instruction
+
+Answer = To solve problems or perform tasks
+
+
+Question 79
+Which of the following are an example of multi-factor authentication?
+
+Asking for the password to be entered twice
+Answering a security question
+Solving a Captcha puzzle
+Asking for a code sent to a phone number
+
+Answer = Asking for a code sent to a phone number
+
+
+Question 80
+Inheritance in OOP allows:
+
+Objects to inherit properties from other objects
+Objects to access private methods of other objects.
+New classes to be created based on existing ones, inheriting their attributes and behaviors.
+Objects to be encapsulated.
+
+Answer = New classes to be created based on existing ones, inheriting their attributes and behaviors.
+
+
+Question 81
+The Agile methodology focuses on:
+
+Promoting flexibility, collaboration, and continuous feedback.
+Planning all stages before starting any coding
+Developing a product in a linear fashion without changes
+Releasing a final product only at the end of the process
+
+Answer = Promoting flexibility, collaboration, and continuous feedback.
+
+
+Question 82 
+Which of the following statements is true about a class?
+
+It can inherit properties and methods from another class.
+It can directly access the properties of an object.
+It cannot have its own data or behavior.
+It cannot exist without any reference to an object.
+
+Answer = It can inherit properties and methods from another class.
+
+
+Question 83
+Which code type tends to have faster execution speed?
+
+
+Interpreted code
+Whether code is interpreted or compiled has no impact on execution speed
+Compiled and interpreted code have similar execution speeds
+Compiled code
+
+Answer = Compiled code
+
+
+Question 84
+What is the benefit of applying responsive design principles to web applications?
+
+Enhanced security for web application data
+Adaptation of layout and functionality to different screen sizes
+Improved website loading speed
+Consistent visual design across devices
+
+Answer = Adaptation of layout and functionality to different screen sizes
+
+
+Question 85
+In Big-O notation, what does O(n^2) represent?
+
+
+Linear time complexity.
+Logarithmic time complexity.
+Quadratic time complexity.
+Constant time complexity.
+
+Answer = Quadratic time complexity.
+
+
+Question 86
+Which of the following is true about a user-defined class?
+
+It can only have methods but not attributes
+It can have attributes (data) and methods (functions)
+It cannot have both attributes and methods
+It can only have attributes but not methods
+
+Answer = It can have attributes (data) and methods (functions)
+
+
+Question 87
+Which of the following best describes class relationships in object-oriented programming?
+
+The process of combining multiple classes into one.
+The process of defining the behavior and properties of an object.
+The process of creating objects from a class.
+The way in which classes are related or connected to each other.
+
+Answer = The way in which classes are related or connected to each other.
+
+
+Question 88
+What is the primary purpose of time complexity analysis using Big-O notation?
+
+To guarantee the best-case scenario for an algorithm.
+To provide a lower bound on an algorithm's performance.
+To determine the exact execution time of an algorithm.
+To compare and describe how the algorithm's runtime grows with input size.
+
+Answer = To compare and describe how the algorithm's runtime grows with input size.
+
+
+Question 89
+How can you optimize nested loops for efficiency?
+
+Reducing the number of iterations
+Avoiding unnecessary iterations
+Increasing the complexity of loop variables
+Adding more loops for extra precision
+
+Answer = Avoiding unnecessary iterations
+
+
+Question 90 
+What is the primary purpose of a two-dimensional array?
+
+To organize data in rows and columns.
+To store a single value or element.
+To create a one-dimensional array.
+To perform arithmetic calculations.
+
+Answer = To organize data in rows and columns.
+
+
+Question 91
+While x is not equal to 1
+    Do some tasks
+End While
+When do you get OUT of this loop?
+
+When x is larger than 1
+When x is larger than 0
+When x  is assigned 1
+When x is assigned -1
+
+Answer = When x  is assigned 1
+
+
+Question 92
+What is the primary distinction between open source and proprietary systems?
+
+Open source systems are always free of charge.
+Open source systems encourage public collaboration and transparency.
+Open source systems have closed-source code.
+Open source systems prioritize vendor lock-in.
+
+Answer = Open source systems encourage public collaboration and transparency.
+
+
+Question 93
+What is a key advantage of cloud-based computing?
+
+Scalability and cost-efficiency.
+Reduced latency in data transfer.
+inflexible resource scaling.
+Paying for unused computing resources.
+
+Answer = Scalability and cost-efficiency.
+
+
+Question 94
+You're developing a program to ask the user for their age. You want to keep asking until they enter a valid age (a positive number). You want to ensure the prompt is shown at least once.
+What type of loop would you use?
+
+Do-while loop
+An infinite loop
+A for loop
+While loop
+
+Answer = Do-while loop
+
+
+Question 95
+In a truth table for a Boolean expression with three variables, how many rows will there be?
+
+4
+3
+16
+8
+
+Answer = 8
+
+
+Question 96
+Given the following pseudocode: 
+
+for ( _________ ; index < 8; index += 2)
+
+       { output to console (index + " "); }
+
+Which of the following correctly completes the for loop so that the numbers 4, 6, 8 are output?
+
+index = 4
+index = 1
+index = 2
+index = 0
+
+Answer = index = 2 
+
+
+Question 97
+Why is App Store Optimization (ASO) important for an app’s success?
+
+It provides users with exclusive in-app discounts
+It increases the app's visibility in app store searches
+It helps the app collect more user data
+It allows users to avoid ads within the App
+
+Answer = It increases the app's visibility in app store searches
+
+
+Question 98
+What is the impact of excessive HTTP requests on page loading speed?
+
+Reduced resolution of graphics
+Slower page loading
+Faster page loading
+Reduced server performance
+
+Answer = Slower page loading
+
+
+Question 99
+How do you establish a connection to a database using SQL database applications?
+
+QUERY
+OPEN
+CONNECT
+CREATE
+
+Answer = CONNECT
+
+Question 100
+What will be the value of matrix after executing this code?
+
+matrix = [10, 20, 30, 40, 50]
+matrix[2] = matrix[1] + matrix[4]
+
+matrix = [10, 50, 20, 30, 40, 50]
+ matrix = [10, 20, 70, 40, 50]
+matrix = [10, 20, 70, 30, 40, 50]
+matrix = [10, 50, 30, 40, 50]
+
+Answer =  matrix = [10, 20, 70, 40, 50]
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
