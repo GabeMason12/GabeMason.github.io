@@ -1201,8 +1201,616 @@ matrix = [10, 50, 30, 40, 50]
 Answer =  matrix = [10, 20, 70, 40, 50]
 
 
+Question 101 
+What is meant by  "software defects",  also known as vulnerabilities or bugs?
+
+User documentation for the software
+Design specifications of the software
+Features in the software 
+Flaws or weaknesses in software code or design
+
+Answer = Flaws or weaknesses in software code or design
 
 
+Question 102 
+Which Git command is used to send local commits to a remote repository?
+
+git push
+git commit
+git clone
+git pull
+
+Answer = git push
+
+
+Question 103
+arr ← [5, 8, 2, 4, 9]
+max ← max(arr)
+output(max)
+
+What will be the output of the code snippet above?
+
+9
+8
+2
+5
+
+Answer = 9
+
+
+Question 104
+De Morgan's Theorems are used to:
+
+Optimize digital circuits
+Perform bitwise operations
+Simplify complex numbers
+Evaluate Boolean expressions
+
+Answer = Evaluate Boolean expressions
+
+
+Question 105
+What are secure coding practices in software development?
+
+Best practices for preventing software bugs
+Techniques for securing the physical infrastructure of software systems
+Guidelines for writing code that is resistant to security vulnerabilities
+Procedures for securely deleting data from storage devices
+
+Answer = Guidelines for writing code that is resistant to security vulnerabilities
+
+
+Question 106
+What ethical principle aligns with the transparency and collaboration of open source systems?
+
+Restriction of software distribution
+User freedom and knowledge sharing
+Intellectual property protection
+Vendor-controlled software development
+
+Answer = User freedom and knowledge sharing
+
+
+Question 107
+All of the following sorting algorithms directly modify the input array EXCEPT ONE.
+
+Which one of the following sorting algorithm does NOT directly modifies the input array?
+
+Merge sort
+Selection sort
+Bubble sort
+In-place sorting
+
+Answer = In-place sorting
+
+
+Question 108
+ What do rational operators evaluate to in a conditional statement?
+
+Integer
+Boolean
+Float
+String
+
+Answer = Boolean 
+
+
+Question 109
+What is the binary representation of the decimal number 9?
+
+1111
+1100
+1001
+1010
+
+Answer = 1001
+
+
+Question 110
+Why is it essential to understand the requirements for constructing new objects?
+
+To reduce the risk of errors and unexpected behavior
+To introduce inconsistencies in code
+To minimize documentation usage
+To complicate code readability
+
+Answer = To reduce the risk of errors and unexpected behavior
+
+
+Question 111
+What will be the value of matrix after executing this code?
+
+matrix = [10, 20, 30, 40, 50]
+matrix[2] = matrix[1] + matrix[4]
+
+matrix = [10, 50, 30, 40, 50]
+matrix = [10, 20, 70, 30, 40, 50]
+matrix = [10, 50, 20, 30, 40, 50]
+matrix = [10, 20, 70, 40, 50]
+
+Answer = matrix = [10, 20, 70, 40, 50]
+
+
+Question 112
+What is the purpose of parallel sorting algorithms?
+
+To sort arrays without considering the order of elements.
+To guarantee stable sorting.
+To perform sorting operations on arrays with fewer elements.
+To use multiple processors to improve sorting performance.
+
+Answer = To use multiple processors to improve sorting performance.
+
+
+Question 113
+When is the use of open web standards like HTML and CSS most relevant?
+
+When generating random numbers
+When formatting data for a printed report
+When encrypting sensitive data
+When displaying data in a user interface
+
+Answer = When displaying data in a user interface
+
+
+Question 114
+What ONE of the following is the best practice when creating variables?
+
+Use more than one word when naming a variable to make it specific..
+Name your variable something that refers to what it holds.
+Create as many variables as possible.
+Use one syllable words when creating variables.
+
+Answer = Name your variable something that refers to what it holds.
+
+
+Question 115
+What does it mean to instantiate an object from a class in object-oriented programming?
+
+Creating a new class based on an existing class.
+Combining multiple classes into one.
+Creating a new instance of a class that can hold data and execute methods.
+Modifying an existing class to add new features.
+
+Answer = Creating a new instance of a class that can hold data and execute methods.
+
+
+Question 116
+Which type of virus does not require the user to execute the payload?
+
+Worm
+Adware
+Spyware
+Trojan
+
+Answer = Worm 
+
+
+Question 117
+Which of the following is an example of an iteration structure?
+
+try-except
+while
+If-else
+switch-case
+
+Answer = while 
+
+
+Question 118
+What is the term for a loop that continues indefinitely because its exit condition is not met?
+
+Infinite loop
+Conditional loop
+Endless loop
+Recursive loop
+
+Answer = Infinite loop
+
+
+Question 119 
+What is the primary function of Mobile Device Management (MDM) solutions?
+
+Enabling remote meetings
+Creating virtual desktop environments
+Encrypting internet traffic
+Managing and securing mobile devices used for remote work
+
+Answer = Managing and securing mobile devices used for remote work
+
+
+Question 120 
+Which regulation aims to enhance cybersecurity by allowing the sharing of cyber threat information between private companies and the government?
+
+FERPA
+HIPAA
+CISPA
+COPPA
+
+Answer = CISPA
+
+
+Question 121
+What is the purpose of passing arguments to parameters?
+
+To assign values to parameters
+To declare new variables
+To create conditional statements
+To return values from a function
+
+Answer = To assign values to parameters
+
+
+Question 122
+Which type of web API is accessible to developers and users without restrictions, typically provided by companies or organizations to enable integration with their services or platforms?
+
+Partner API
+Composite API
+Private API
+Public API
+
+Answer = Public API
+
+
+Question 123
+In the documentation for a class, the constructor method is described as follows:
+
+Constructor:
+- Car(options: object)
+What does the options parameter represent?
+
+A boolean value
+An array of values
+A configuration object with multiple properties
+A single value
+
+Answer = A configuration object with multiple properties
+
+
+Question 124
+All of the following can be used for nested loops except for one.
+
+Which one of the following loop structures cannot be used in a nested loop?
+
+for loop
+while loop
+switch loop
+do-while loop
+
+Answer = switch loop
+
+
+Question 125
+Which action helps maintain data integrity and security in email management?
+
+Open attachments on emails
+Open all emails promptly
+Follow links on emails
+Delete unrecognized emails
+
+Answer = Delete unrecognized emails
+
+
+Question 126
+Why is accessibility important in graphics development?
+
+To make graphical content inclusive for users with disabilities
+To create vector graphics
+To enhance graphics performance
+To limit the use of graphics in software
+
+Answer = To make graphical content inclusive for users with disabilities
+
+
+Question 127 
+class Student {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    setName(newName) {
+        this.name = newName;
+    }
+
+    getName() {
+        return this.name;
+    }
+
+    setAge(newAge) {
+        this.age = newAge;
+    }
+
+    getAge() {
+        return this.age;
+    }
+}
+
+const student1 = new Student("John", 20);
+student1.setName("Alice");
+let name = student1.getName();
+
+Which one of the modifier methods in the Student class is being used?
+
+setAge()
+setName()
+getAge()
+getName()
+
+Answer = setName()
+
+
+Question 128
+Convert the decimal number 70 to hexadecimal.
+
+3A
+2E
+46
+5C
+
+Answer = 46
+
+
+Question 129
+When performing arithmetic operations on integers, what is the potential issue to be aware of?
+
+Rounding errors
+Overflow or underflow
+Precision loss
+Type conversion errors
+
+Answer = Overflow or underflow
+
+
+Question 130
+What does O(n^2) complexity indicate in the context of data manipulation?
+
+Exponential time complexity.
+Constant time complexity.
+Quadratic time complexity.
+Linear time complexity.
+
+Answer = Quadratic time complexity.
+
+
+Question 131
+How many gigabytes are in a terabyte?
+
+1000
+1024
+1 048 576
+1 000 000
+
+Answer = 1024
+
+
+Question 132
+let arr = [10, 20, 30, 40, 50];
+let index = arr.findIndex((element) => element > 30);
+console.log(index);
+
+What will be the output of the code snippet above?
+
+2
+3
+1
+4
+
+Answer = 3
+
+
+Questiom 133
+In object-oriented programming, what does the term "encapsulation" refer to?
+
+The process of retrieving data from objects
+The process of changing the state of an object
+The process of bundling data and methods together within a class
+The process of deleting objects from memory
+
+Answer = The process of bundling data and methods together within a class
+
+
+Question 134
+initialize sum at 0
+
+For each number i from 1 to 10
+    If i is odd
+        Add i to sum
+    Else
+        Exit the loop
+    End If
+End For
+
+Output to console(sum)
+
+What will be the output of the above code?
+
+25
+55
+1
+0
+
+Answer = 1
+
+
+Question 135
+Why is Accessibility important in GUI design?
+
+To make interfaces usable by individuals with diverse abilities
+To synchronize data between the GUI and application logic
+To adapt the GUI to different languages
+To handle user input promptly
+
+Answer = To make interfaces usable by individuals with diverse abilities
+
+
+Questiom 136
+What is the purpose of the "find and replace" feature in a program editor?
+
+To search for specific pieces of code within the file
+To compile and execute the code
+To fix syntax errors in the code
+To create backups of the code file
+
+Answer = To search for specific pieces of code within the file
+
+
+Question 137
+What is the primary purpose of a two-dimensional array?
+
+To iterate over a single-dimensional array
+To perform mathematical operations on numeric data
+To represent a matrix-like structure with rows and columns
+To store multiple elements of different types
+
+Answer = To represent a matrix-like structure with rows and columns
+
+
+Question 138 
+What is the primary objective of integration testing?
+
+To test how different components interact and work together
+To execute unit tests within a program.
+To validate individual components in isolation.
+To assess the performance of the entire system.
+
+Answer = To test how different components interact and work together
+
+
+Question 139
+Which programming language is known for its simplicity and readability, making it suitable for beginners?
+
+Python
+Ruby
+Java
+JavaScript
+
+Answer = Python
+
+
+Question 140
+What does decomposing a problem into smaller procedures allow developers to do?
+
+Leave the problem-solving to someone else.
+Ignore the problem's complexities.
+Solve each part independently and then combine the solutions to solve the entire problem.
+Avoid understanding the problem as a whole.
+
+Answer = Solve each part independently and then combine the solutions to solve the entire problem.
+
+
+Question 141
+Which design pattern ensures that a class has only one instance and provides a global point of access to it?
+
+Factory Method Pattern
+Decorator Pattern
+Singleton Pattern
+Observer Pattern
+
+Answer = Singleton Pattern
+
+
+Question 142
+What is space complexity in the context of sorting algorithms?
+
+The time it takes for the algorithm to complete.
+The amount of additional memory used by the algorithm.
+The size of the input data.
+The number of comparisons made by the algorithm.
+
+Answer = The amount of additional memory used by the algorithm.
+
+
+Question 143
+Which term refers to the variables or values passed into a function or method when it is called?
+
+Returns
+Functions
+Constants
+Arguments
+
+Answer = Arguments
+
+
+Question 144
+When pushing changes to a remote repository, which command is used to specify the remote branch to push to?
+
+git branch
+git push
+git checkout
+git remote
+
+Answer = git push
+
+
+Question 145
+What is the primary distinction between open source and proprietary systems?
+
+
+Open source systems have closed-source code.
+Open source systems prioritize vendor lock-in.
+Open source systems are always free of charge.
+Open source systems encourage public collaboration and transparency.
+
+Answer = Open source systems encourage public collaboration and transparency.
+
+
+Question 146
+What is a significant advantage of dedicated servers?
+
+High performance and full control
+Resource unpredictability
+Low cost
+Shared resources
+
+Answer = High performance and full control
+
+
+Question 147
+Why is decomposing a large problem beneficial in software development?
+
+It allows the problem to be ignored until a later time.
+It guarantees that no errors will occur during the development process.
+It helps in breaking down the problem into manageable tasks that can be solved independently.
+It reduces the need for code testing and validation.
+
+Answer = It helps in breaking down the problem into manageable tasks that can be solved independently.
+
+
+Question 148
+What is the advantage of using framework/library functions for data sanitization?
+
+Provides more control over the sanitization process
+Allows for manual validation and sanitization
+Ensures standardized and reliable sanitization
+Simplifies the process of input validation
+
+Answer = Ensures standardized and reliable sanitization
+
+
+Question 149 
+In the Request-Response Model of API communication, what typically happens after the client sends a request to the API server?
+
+The server terminates the connection with the client.
+The client sends additional requests without waiting for a response.
+The server processes the request and sends a response to the client.
+The client immediately processes the response.
+
+Answer = The server processes the request and sends a response to the client.
+
+
+Question 150
+How can custom exception classes contribute to error recovery and graceful degradation?
+
+By preventing exceptions from occurring
+By providing alternative paths or fallback actions when exceptions occur
+By completely eliminating the need for exception handling
+By automatically handling exceptions without any user intervention
+
+Answer = By providing alternative paths or fallback actions when exceptions occur
+
+
+Question 151
 
 
 
