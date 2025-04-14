@@ -1811,6 +1811,649 @@ Answer = By providing alternative paths or fallback actions when exceptions occu
 
 
 Question 151
+Which of the following project management tools is most commonly used to track the status of tasks as they move through various stages?
+
+Risk Register
+Gantt Chart
+Task Board (Kanban)
+Time Tracking Software
+
+Answer = Task Board (Kanban)
+
+
+Question 152
+ What is the term for the process of regularly identifying and addressing code smells and applying refactoring techniques to improve code quality?
+
+Occasional refactoring
+Refactoring marathon
+One-time refactoring
+Continuous refactoring
+
+Answer = Continuous refactoring
+
+
+Question 153
+All of the following sorting algorithms directly modify the input array EXCEPT ONE.
+
+Which one of the following sorting algorithm does NOT directly modifies the input array?
+
+In-place sorting
+Merge sort
+Selection sort
+Bubble sort
+
+Answer = In-place sorting
+
+
+Question 154
+Which data type would be suitable for storing a person's name?
+
+integer
+float
+string
+boolean
+
+Answer = string
+
+
+Question 155
+ In a two-dimensional array, how are elements typically accessed?
+
+Using two indices, representing row and column positions.
+Using the length of the array.
+Using a single index
+Using a single index, and a column identifier.
+
+Answer = Using two indices, representing row and column positions.
+
+
+Question 156
+What does the I stand for in the CIA triad?
+
+Intelligence
+Innovation
+Investigation
+Integrity
+
+Answer = Integrity
+
+
+Question 157
+What is the process of changing the properties or behavior of a user-defined data type after its creation called?
+
+Initialization
+Declaration
+Encapsulation
+Modification
+
+Answer = Modification
+
+
+Question 158
+A function is designed to sort a list of numbers in ascending order, but instead it adds the numbers together. What type of error occurred?
+
+Semantic Error
+Memory Error
+Runtime Error
+Syntax Error
+
+Answer = Semantic Error
+
+
+Question 159
+How does visualization contribute to effective collaboration among team members?
+
+It eliminates the need for collaboration.
+It enhances communication and understanding.
+It helps identify the weakest team members.
+It automates the collaborative process.
+
+Answer = It enhances communication and understanding.
+
+
+Question 160
+If x = 5 and y = 2, what is the value of the expression "x ** y"?
+
+8
+7
+25
+10
+
+Answer = 25
+
+
+Question 161
+In the example x = "a", what data type is the value a?
+
+float
+int
+boolean
+char
+
+Answer = char 
+
+
+Question 162
+let x = 10;
+let y = 20;
+let result = x <= y;
+
+What is the value of "result" in the above code?
+
+False
+True
+Error: Invalid comparison
+10
+
+Answer = True
+
+
+Question 163 
+ Which of the following is NOT a step involved in invoking a modifier method to change the state of an object?
+
+
+Locate the appropriate modifier method associated with the object
+Delete the object you want to modify
+Identify the object whose state needs to be modified.
+The modifier method will internally update the state of the object
+
+Answer = Delete the object you want to modify
+
+
+Question 164
+What does "Using Components with Known Vulnerabilities" address in OWASP's Top 10?
+
+
+Cross=Site Scripting (XSS)
+Insufficient logging and monitoring
+Outdated or vulnerable components
+Weakness in user authentication
+
+Answer = Outdated or vulnerable components
+
+
+Question 165
+How many gigabytes are in a terabyte?
+
+1024
+1000
+1 048 576
+1 000 000
+
+Answer = 1024
+
+
+Question 166
+Which of the following costs is unique to cross-platform app development?
+
+
+Limitations in utilizing platform-specific features
+Higher backend development costs
+App stores requiring a higher fee
+Separate codebases for iOS and Android
+
+Answer = Limitations in utilizing platform-specific features
+
+
+Question 167
+What is the role of visualization in planning the structure and flow of code?
+
+It ensures the absence of errors in the code
+It helps estimate project timelines
+It assists in organizing the logic and structure of the code
+It replaces the need for planning altogether.
+
+Answer = It assists in organizing the logic and structure of the code
+
+
+Question 168
+When restoring a previous version of code, what happens to the changes made in the current version?
+
+They are temporarily saved as a separate branch.
+They are automatically committed as a new version.
+They are permanently discarded.
+They are merged with the restored version.
+
+Answer = They are permanently discarded.
+
+
+Question 169
+What is a defining characteristic of open source systems?
+
+Limited customization options
+Closed community collaboration
+Publicly available source code
+Proprietary source code
+
+Answer = Publicly available source code
+
+
+Question 170
+Which data type will you most likely use for performing division (such as y = a / b)?
+
+Integer
+Floating point
+Character
+Boolean
+
+Answer = Floating point
+
+
+Question 171
+Which mechanism allows a class to inherit attributes and behaviors from another class?
+
+Abstraction
+Encapsulation
+Inheritance
+Polymorphism
+
+Answer = Inheritance
+
+
+Question 172
+Which methodology encourages developers to begin by identifying the high-level structure before detailing individual components?
+
+Agile
+Top-Down
+Waterfall
+Incremental
+
+Answer = Top-Down
+
+
+Question 173
+In the documentation for a class, the constructor method is described as follows:
+
+Constructor:
+- Car(options: object)
+What does the options parameter represent?
+
+An array of values
+A boolean value
+A configuration object with multiple properties
+A single value
+
+Answer = A configuration object with multiple properties
+
+
+Question 174
+What is the primary goal of documentation maintenance?
+
+Creating new documentation for every code change
+Updating documentation only when code is completely rewritten
+Eliminating all comments from the code
+Keeping documentation accurate and relevant as code changes
+
+Answer = Keeping documentation accurate and relevant as code changes
+
+
+Question 175
+What ONE of the following is the best practice when creating variables?
+
+Use one syllable words when creating variables.
+Name your variable something that refers to what it holds.
+Create as many variables as possible.
+Use more than one word when naming a variable to make it specific..
+
+Answer = Name your variable something that refers to what it holds.
+
+
+Question 176
+Which SQL clause is used to filter out data based on specific conditions?
+
+GROUP BY
+HAVING
+ORDER BY
+WHERE
+
+Answer = WHERE
+
+
+Question 177
+What is the primary purpose of a class in object-oriented programming?
+
+To store variables and perform calculations.
+To encapsulate unrelated functions.
+To define the data and behavior of an object.
+To control the flow of a program.
+
+Answer = To define the data and behavior of an object.
+
+
+Question 178
+What is the primary goal of code review in software development?
+
+To compile and validate the code before deployment.
+To identify potential issues, improve code quality, and adhere to coding standards.
+To find the shortest code solutions to problems.
+To ensure that all code is written by the same person.
+
+Answer = To identify potential issues, improve code quality, and adhere to coding standards.
+
+
+Question 179
+public class Student {
+    private String name;
+    private int age;
+
+    public Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+}
+
+Student student1 = new Student("John", 20);
+
+Which method in the Student class is the accessor method?
+
+return name;
+this.name = name
+getName()
+Student("John", 20)
+
+Answer = getName()
+
+
+Question 180
+What is variable scope in the context of nested loops?
+
+It is not relevant to nested loops
+It refers to the order in which variables are declared
+It defines where a variable is accessible within the code
+It is the same for all variables in both the inner and outer loops
+
+Answer = It defines where a variable is accessible within the code
+
+
+Question 181
+What is the benefit of using flowcharts for visualizing problem-solving?
+
+They provide a step-by-step guide to writing code.
+They ensure proper indentation and syntax in the code.
+They offer a visual representation of the problem-solving process.
+They improve code optimization and performance.
+
+Answer = They offer a visual representation of the problem-solving process.
+
+
+Question 182
+What is integration testing?
+
+Testing the performance of a program
+Testing the user interface of a program
+Testing the interactions between different components of a program
+Testing individual components of a program in isolation
+
+Answer = Testing the interactions between different components of a program
+
+
+Question 183
+Given the following pseudocode: 
+
+for ( _________ ; index < 8; index += 2)
+
+       { output to console (index + " "); }
+
+Which of the following correctly completes the for loop so that the numbers 4, 6, 8 are output?
+
+index = 0
+index = 1
+index = 4
+index = 2
+
+Answer = index = 2
+
+
+Question 184
+Match the decimal number on the LEFT to the equivalent hexadecimal representation on the RIGHT
+
+29
+Correct match:
+1B
+58
+Correct match:
+38
+128
+Correct match:
+80
+255
+Correct match:
+FF
+
+
+Question 185
+You're developing a program to ask the user for their age. You want to keep asking until they enter a valid age (a positive number). You want to ensure the prompt is shown at least once.
+
+What type of loop would you use?
+
+A for loop
+While loop
+An infinite loop
+Do-while loop
+
+Answer = Do-while loop
+
+
+Question 186
+What is the advantage of using framework/library functions for data sanitization?
+
+Ensures standardized and reliable sanitization
+Simplifies the process of input validation
+Provides more control over the sanitization process
+Allows for manual validation and sanitization
+
+Answer = Ensures standardized and reliable sanitization
+
+
+Question 187
+What are graphics methods in the context of software development?
+
+Communication protocols for graphics rendering
+Programming functions for drawing and manipulating graphical elements
+File formats for saving images
+Data structures for storing images
+
+Answer = Programming functions for drawing and manipulating graphical elements
+
+
+Question 188
+Which strategy is useful for dealing with a complex problem that is difficult to solve as a whole?
+
+Regression Testing
+Abstraction
+Integration
+Decomposition
+
+Answer = Decomposition
+
+
+Question 189
+Identify the loop control variable in the pseudocode below:
+
+WHILE temperature > 100
+
+temperature = temperature - 5
+
+END WHILE
+
+5
+WHILE
+temperature
+100
+
+Answer = temperature
+
+
+Question 190
+What is the purpose of SVG in web development?
+
+Structuring and presenting content
+Describing presentation and layout
+Ensuring compatibility across different browsers
+Creating scalable graphics
+
+Answer = Creating scalable graphics
+
+
+Question 191
+What is the purpose of an error code as a return value?
+
+To define function names.
+To enhance the readability of code.
+To check if an error occurred or not.
+To assign values to variables.
+
+Answer = To check if an error occurred or not.
+
+
+Question 192
+What is the primary goal of employing graphics methods to create images at specified locations?
+
+Designing visually appealing graphical interfaces
+Enhancing website loading speed for image-heavy pages
+Ensuring image compatibility across different devices
+Positioning and arranging images precisely within a graphical context
+
+Answer = Positioning and arranging images precisely within a graphical context
+
+
+Question 193
+Which of the following is a best practice for maintaining integrity and security in software development?
+
+Debug programs without encryption
+Use version control systems
+Store passwords in plain text
+Make your code more difficult to read
+
+Answer = Use version control systems
+
+
+Question 194
+What should be used to safeguard against security vulnerabilities associated with user file uploads?
+
+File Upload Safeguarding
+Secure Cookies
+Content Security Policies
+Error Messages
+
+Answer = File Upload Safeguarding
+
+
+Question 195
+If you are writing a program to store the quotient and remainder as separate whole numbers, which of the following data types should be used when declaring the variables?
+
+string
+integer
+double
+float
+
+Answer = integer
+
+
+Question 196
+Which regulation is designed to protect the online privacy of children under the age of 13?
+
+HIPAA
+COPPA
+FERPA
+CISPA
+
+Answer = COPPA
+
+
+Question 197
+In nested loops, what are boundary conditions used to define?
+
+The maximum number of loops allowed
+The number of loop variables
+The order of loop execution
+The limits and constraints of variable values
+
+Answer = The limits and constraints of variable values
+
+
+Question 198
+What is the binary value of 0010 in decimal notation?
+
+1
+4
+10
+2
+
+Answer = 2
+
+
+Question 199
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+student1 = Student("John", 20)
+student2 = Student("Jane", 22)
+
+
+What does the code student1 = Student("John", 20) and student2 = Student("Jane", 22) do?
+
+It creates new instances of the Student class with the specified names and ages.
+It defines a new class called Student with the attributes "John" and 20 for student1 and "Jane" and 22 for student2.
+It deletes the existing instances of the Student class and creates new instances with the specified attributes.
+It modifies the existing instance of the Student class with the name "John" and age 20 for student1 and the name "Jane" and age 22 for student2.
+
+Answer = It creates new instances of the Student class with the specified names and ages.
+
+
+Question 200
+public class Vehicle {
+    protected String brand;
+
+    public Vehicle(String brand) {
+        this.brand = brand;
+    }
+
+    public void display() {
+        System.out.println("Brand: " + brand);
+    }
+}
+
+public class Car extends Vehicle {
+    private int numOfDoors;
+
+    public Car(String brand, int numOfDoors) {
+        super(brand);
+        this.numOfDoors = numOfDoors;
+    }
+
+    public void display() {
+        super.display();
+        System.out.println("Number of doors: " + numOfDoors);
+    }
+}
+
+What does super() refer to in the display() method?
+
+It refers to the display() method in the Vehicle class.
+It refers to the display() method in the Car class.
+It refers to the current instance of the Car class.
+It refers to the current instance of the Vehicle class
+
+Answer = It refers to the display() method in the Vehicle class.
+
+
+
+
+
+
+
+
 
 
 
